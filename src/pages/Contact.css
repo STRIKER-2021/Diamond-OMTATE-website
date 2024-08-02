@@ -1,0 +1,84 @@
+.contact{
+    background-image: url("../images/about_us_diamond.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100vw;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: black;
+    padding-bottom: 60px;
+}
+.feedback-section {
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    /* background-color: #f5f5f5; */
+    /* background-color: rgb(61, 56, 56)	; */
+
+  }
+  
+  /* Style for the feedback form on the left */
+  .feedback-form {
+    flex: 1;
+    background-color:beige;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 544px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin: 5px 0;
+  }
+  
+  input[type="submit"] {
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: rgba(170, 255, 32, 0.929);
+  }
+  
+  /* Style for the contact details on the right */
+  .contact-details {
+    flex: 1;
+    background-color: beige;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Media query for responsive layout on smaller screens */
+  @media only screen  and (max-width:680px){
+
+      /* @media (max-width: 768px)  */
+      .feedback-section {
+          flex-direction: column;
+        }
+        .feedback-form, .contact-details {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+    }

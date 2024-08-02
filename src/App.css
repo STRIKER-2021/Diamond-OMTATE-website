@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&family=Quicksand:wght@300&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(212,213,216);
+    font-size: 1vw;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+@media only screen and (max-width:1000px){ 
+    html{
+        font-size: 1.2vw;
+    }
+    .tagline{
+        font-size: 400%;
+    }
+}
+
+@media only screen and (max-width:800px){ 
+    html{
+        font-size: 1.4vw;
+    }
+    .tagline{
+        font-size: 375%;
+    }
+}
+
+/* Bellow 600 see */

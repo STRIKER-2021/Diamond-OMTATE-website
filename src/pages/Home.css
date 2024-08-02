@@ -1,0 +1,244 @@
+.landing-section{
+    background-image: url("../images/home_background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.tagline{
+    display: flex;
+    align-items: center;
+    padding-left: 60%;
+    font-family: 'Prata', sans-serif;
+    font-size: 450%;
+    height: 100vh;
+}
+
+.non-landing-background {
+    background-image: url("../images/general_background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.heading{
+    padding-top: 25px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 300%;
+    color: black;
+}
+
+.heading::after{
+    display: block;
+    height: 2px;
+    background-color: #9d5517;
+    content: "";
+    width: 150px;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+
+.comment-content{
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    font-size: 150%;
+    color: black;
+}
+
+.quality-section {
+    margin-top: 50px;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    background-image: url("../images/second_background.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 0px 20px black;
+}
+
+.quality-section-text {
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Prata', sans-serif;
+    color: black;
+}
+
+.quality-section-text-heading{
+    font-size: 200%;
+    padding-bottom: 5px;
+}
+
+.quality-section-text-content{
+    font-size: 150%;
+    padding-bottom: 5px;
+}
+
+.quality-section-text-button button{
+    all: unset;
+    font-size: 100%;
+    color: #f0f0f0;
+    cursor: pointer;
+    padding: 12px 20px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quality-section-text-button button::after,
+.quality-section-text-button button::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  transition: all .4s;
+}
+
+.quality-section-text-button button::before {
+  width: 100%;
+  height: 100%;
+  background: #28282d;
+  border-radius: 10px;
+}
+
+.quality-section-text-button button::after {
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+}
+
+.quality-section-text-button button:hover::before {
+  transform: translate(5%, 20%);
+  width: 110%;
+  height: 110%;
+}
+
+.quality-section-text-button button:hover::after {
+  width: 100%;
+  height: 100%;
+}
+
+.quality-section-image {
+    width: 50%;
+    margin-right: 10%;
+}
+
+.quality-section-image img {
+    border-radius: 15px;
+    width: 100%;
+    box-shadow: 0px 0px 5px black;
+}
+
+.keypoints-section{
+    margin: 20px 4%;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+.keypoints-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 5%;
+    padding-bottom: 0px;
+}
+
+.keypoints-content-point{
+    display: flex;
+    flex-direction: column;
+    width: 22%;
+    margin-bottom: 20px;
+}
+
+.keypoints-content-point-icon{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.keypoints-content-point-icon img{
+    width: 20%;
+}
+
+.keypoints-content-point-heading{
+    text-align: center;
+    padding-bottom: 10px;
+    color: black;
+    font-size: 140%;
+}
+
+.keypoints-content-point-text{
+    text-align: justify;
+    color: black;
+    font-size: 120%;
+}
+
+.testimonials-section-content{
+    padding: 35px 5%;
+    
+}
+
+.testimonials-section-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.testimonials-section-content-point{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(200, 200, 200, 0.3)), url("../images/second_background.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px black;
+}
+
+.testimonials-section-content-point:hover{
+    box-shadow: 0px 0px 15px black;
+}
+
+.testimonials-section-content-point-header-qoutes{
+    width: 20%;
+    margin-left: 5%;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.testimonials-section-content-point-header-logo{
+    width: 25%;
+    padding-left: 45%;
+}
+
+.testimonials-section-content-point-content{
+    padding-top: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: justify;
+    color: black;
+    font-size: 125%;
+}
+
+.testimonials-section-content-point-person{
+    color: black;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 130%;
+}
