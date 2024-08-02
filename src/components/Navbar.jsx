@@ -39,8 +39,8 @@ export const Navbar = () => {
             </Link>
         </div>
         <div className='navigation-contact-details'>
-            9892888440 <br></br>
-            naman2701@gmail.com
+            9326015105<br></br>
+            dcomtate1234@gmail.com
         </div>
     </div>
   )
